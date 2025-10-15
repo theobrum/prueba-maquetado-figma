@@ -3,7 +3,6 @@
 </script>
 
 <div class="flex flex-col items-center md:items-start">
-  <!-- Centrado en mobile, izquierda en tablet/desktop -->
 
   <h1 class="
     mb-5
@@ -30,7 +29,6 @@
     Analizi ve Test Yönetimi hizmetleri sunmaktayız.
   </p>
   
-  <!-- Input responsive -->
   <div class="
     relative
     w-full md:w-[400px] xl:w-[502px]
