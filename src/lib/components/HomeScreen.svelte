@@ -12,13 +12,13 @@
   <style>
     @media (max-width: 767px) {
       div[style*='background-image'] {
-        background-position: 70% 40% !important;
+        background-position: 67.5% !important;
       }
     }
     
     @media (min-width: 768px) and (max-width: 1279px) {
       div[style*='background-image'] {
-        background-position: 35% center !important;
+        background-position: 40% center !important;
       }
     }
     
@@ -29,7 +29,7 @@
     }
   </style>
 
-  <div class="md:hidden absolute inset-0 bg-white/70"></div>
+  <div class="md:hidden absolute inset-0 bg-white/40"></div>
   
   <SectionsContainer fullWidth={true} className="relative pt-9 md:pt-[45px] xl:pt-[35px]">
     <div class="flex flex-col gap-16 md:gap-[161px] xl:gap-[165px]">
