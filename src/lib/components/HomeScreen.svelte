@@ -2,7 +2,7 @@
   import Navbar from './Navbar.svelte';
   import HeroSection from './HeroSection.svelte';
   import SectionsContainer from './SectionsContainer.svelte';
-  import bgImage from '$lib/assets/Rectangle 1.png';
+  import bgImage from '$lib/assets/imgs/Rectangle 1.png';
 </script>
 
 <div 
