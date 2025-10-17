@@ -2,11 +2,11 @@
   import Button from './Button.svelte';
 </script>
 
-<div class="flex flex-col items-center md:items-start">
+<div class="flex flex-col items-center md:items-center xl:items-start">
 
   <h1 class="
     mb-5
-    text-center md:text-left
+    text-center md:text-center xl:text-left
     text-[42px] md:text-[56px] xl:text-[64px]
     font-extrabold text-black font-manrope
     leading-[57.5px] md:leading-[73.5px] xl:leading-[82px]
@@ -16,13 +16,13 @@
   
   <p class="
     mb-[50px]
-    text-center md:text-left
+    text-center md:text-center xl:text-left
     font-manrope font-normal
     text-[12px] md:text-[16px] xl:text-[20px]
     leading-[23px] md:leading-[28px] xl:leading-9
     tracking-[0.2px]
     text-black
-    max-w-full md:max-w-[500px] xl:max-w-none
+    max-w-full md:max-w-[600px] xl:max-w-none
   ">
     Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı<br class="hidden xl:block"/> 
     sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş<br class="hidden xl:block"/>
@@ -31,8 +31,8 @@
   
   <div class="
     relative
-    w-full md:w-[400px] xl:w-[502px]
-    h-[60px] md:h-[65px] xl:h-[73px]
+    w-full md:w-[450px] xl:w-[502px]
+    h-[60px] md:h-[68px] xl:h-[73px]
   ">
     <input 
       type="email" 

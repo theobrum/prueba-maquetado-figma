@@ -5,28 +5,29 @@
 </script>
 
 <div 
-  class="min-h-screen bg-cover" 
-  style="
-    background-image: url({bgImage});
-    background-position: 65% center;
-  "
+  class="min-h-screen bg-cover bg-center" 
+  style="background-image: url({bgImage})"
 >
   <style>
+    /* Mobile: centrado */
     @media (max-width: 767px) {
       div[style*='background-image'] {
-        background-position: 67% 40% !important;
+        background-position: 70% 40% !important;
       }
     }
     
+    /* Tablet: NUEVO - mostrar planta, laptop y brazo */
     @media (min-width: 768px) and (max-width: 1279px) {
       div[style*='background-image'] {
-        background-position: 90% center !important;
+        background-position: 10% !important;
+        background-size: cover !important;
       }
     }
     
+    /* Desktop: camisa y brazo visibles */
     @media (min-width: 1280px) {
       div[style*='background-image'] {
-        background-position: 50% 45% !important;
+        background-position: 55% 45% !important;
       }
     }
   </style>
