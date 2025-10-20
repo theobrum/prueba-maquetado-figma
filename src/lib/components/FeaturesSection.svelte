@@ -8,23 +8,23 @@
   const features = [
     {
       id: 1,
-      text: 'Yazılım Kalitesini<br/>Arttırıyoruz',
-      showIcon: true
+      text: 'Yazılım Kalitesini Arttırıyoruz',
+      hasIcon: true
     },
     {
       id: 2,
-      text: 'Olası Hataları Önceden<br/>Belirliyoruz',
-      showIcon: true
+      text: 'Olası Hataları Önceden Belirliyoruz',
+      hasIcon: true
     },
     {
       id: 3,
-      text: 'Oluşabilecek Riskleri<br/>Önlüyoruz',
-      showIcon: true
+      text: 'Oluşabilecek Riskleri Önlüyoruz',
+      hasIcon: true
     },
     {
       id: 4,
-      text: 'Zaman ve Maliyetten<br/>Tasarruf Sağlıyoruz',
-      showIcon: false
+      text: 'Zaman ve Maliyetten Tasarruf Sağlıyoruz',
+      hasIcon: false
     }
   ];
 </script>
@@ -47,17 +47,17 @@
       <h2 class="font-manrope font-extrabold text-[36px] leading-[47px] md:text-[48px] md:leading-[64px] text-white mb-4">
         Test Yönetimiyle Neler Sağlıyoruz?
       </h2>
-      <p class="font-manrope font-normal text-[12px] md:text-[18px] leading-[32px] text-white">
+      <p class="font-manrope font-normal text-[14px] md:text-[18px] leading-[32px] text-white">
         IoT Destekli Çözümler
       </p>
     </div>
     
-    <div class="grid grid-cols-1 md:grid-cols-4 xl:grid-cols-4 gap-17.5 md:gap-8 xl:gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 xl:grid-cols-4 gap-16 md:gap-8 xl:gap-8 justify-items-center">
       {#each features as feature (feature.id)}
         <FeatureCard 
           text={feature.text}
-          icon={feature.showIcon ? arrowIcon : ''}
-          iconMobile={feature.showIcon ? arrowIconMobile : ''}
+          icon={feature.hasIcon ? arrowIcon : ''}
+          iconMobile={feature.hasIcon ? arrowIconMobile : ''}
         />
       {/each}
     </div>
