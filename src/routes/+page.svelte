@@ -3,9 +3,11 @@
   import ServicesSection from '$lib/components/ServicesSection.svelte';
   import FeaturesSection from '$lib/components/FeaturesSection.svelte';
   import InfoSection from '$lib/components/InfoSection.svelte';
+  import PartnersSection from '$lib/components/PartnersSection.svelte';
 </script>
 
 <HomeScreen />
 <ServicesSection />
 <FeaturesSection />
 <InfoSection />
+<PartnersSection />
