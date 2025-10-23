@@ -60,7 +60,6 @@
 
 <div class="flex flex-col gap-8 {flexDirection} md:gap-16 {gapClass}">
   
-  <!-- Imagen -->
   <div class="w-full md:w-[45%] xl:w-[42%] flex items-center justify-center flex-shrink-0">
     <img 
       src={imageMobile} 
@@ -79,7 +78,6 @@
     />
   </div>
   
-  <!-- Contenido -->
   <div class="w-full md:w-1/2 flex flex-col justify-center md:aspect-square">
     <h2 class="font-manrope font-bold text-[36px] leading-[41.5px] md:text-[54px] md:leading-[59.5px] md:max-w-none xl:text-[64px] xl:leading-[76px] xl:max-w-[510px] text-[#2E2E2E] mb-4 md:mb-6 text-center md:text-left">
       {displayTitle}

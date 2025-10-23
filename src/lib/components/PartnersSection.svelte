@@ -1,7 +1,6 @@
 <script lang="ts">
   import PartnerCard from './PartnerCard.svelte';
   import SectionsContainer from './SectionsContainer.svelte';
-  import Button from './Button.svelte';
   
   import akbankLogo from '$lib/assets/imgs/logos/Akbank-Logo.png';
   import akcanLogo from '$lib/assets/imgs/logos/Akcan-Logo.png';
