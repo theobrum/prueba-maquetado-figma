@@ -4,6 +4,7 @@
   import FeaturesSection from '$lib/components/FeaturesSection.svelte';
   import InfoSection from '$lib/components/InfoSection.svelte';
   import PartnersSection from '$lib/components/PartnersSection.svelte';
+  import ContactSection from '$lib/components/ContactSection.svelte';
 </script>
 
 <HomeScreen />
@@ -11,3 +12,4 @@
 <FeaturesSection />
 <InfoSection />
 <PartnersSection />
+<ContactSection />
