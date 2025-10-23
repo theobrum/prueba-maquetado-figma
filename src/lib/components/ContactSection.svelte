@@ -26,7 +26,7 @@
       </p>
       
       <div class="mt-4 md:mt-6">
-        <Button class="w-[200px] md:w-[220px] xl:w-[240px] h-[48px] md:h-[52px] xl:h-[56px] rounded-[8px] px-4 py-3 text-[14px] md:text-[16px] leading-[24px] font-semibold">
+        <Button class="w-[130px] md:w-[210px] xl:w-[198px] h-[46px] md:h-[75px] xl:h-[65px] rounded-[8px] px-4 py-3 text-[16px] md:text-[24px] leading-[20px] font-semibold">
           Bize Ulaşın
         </Button>
       </div>
